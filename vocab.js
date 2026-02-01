@@ -1,7 +1,8 @@
 const vocabData = {
     "Year 7 (Themes)": {
         "Greetings & Numbers": [
-            { char: "你好", jyutping: "nei5 hou2", meaning: "Hello" },
+            { char: "你", jyutping: "nei5", meaning: "You" },
+            { char: "好", jyutping: "hou2", meaning: "Good" },
             { char: "我", jyutping: "ngo5", meaning: "I / Me" },
             { char: "叫", jyutping: "giu3", meaning: "Called (name)" },
             { char: "一", jyutping: "jat1", meaning: "One" },
@@ -38,9 +39,11 @@ const vocabData = {
         "School": [
             { char: "學", jyutping: "hok6", meaning: "Study / Learn" },
             { char: "校", jyutping: "haau6", meaning: "School" },
-            { char: "同學", jyutping: "tung4 hok6", meaning: "Classmate" },
-            { char: "老師", jyutping: "lou5 si1", meaning: "Teacher" },
-            { char: "中文", jyutping: "zung1 man4", meaning: "Chinese Language" }
+            { char: "同", jyutping: "tung4", meaning: "Same / Together" },
+            { char: "老", jyutping: "lou5", meaning: "Old" },
+            { char: "師", jyutping: "si1", meaning: "Teacher / Master" },
+            { char: "中", jyutping: "zung1", meaning: "Middle / Chinese" },
+            { char: "文", jyutping: "man4", meaning: "Language / Culture" }
         ]
     },
     "Year 9 (Themes)": {
@@ -49,11 +52,15 @@ const vocabData = {
             { char: "要", jyutping: "jiu3", meaning: "Want / Need / Will" },
             { char: "會", jyutping: "wui5", meaning: "Can (Learned) / Will" },
             { char: "能", jyutping: "nang4", meaning: "Can (Ability)" },
-            { char: "可以", jyutping: "ho2 ji5", meaning: "Can / May" },
-            { char: "應該", jyutping: "jing1 goi1", meaning: "Should" },
-            { char: "必須", jyutping: "bit1 seoi1", meaning: "Must" },
-            { char: "願意", jyutping: "jyun6 ji3", meaning: "Be willing to" },
-            { char: "需要", jyutping: "seoi1 jiu3", meaning: "Need to" },
+            { char: "可", jyutping: "ho2", meaning: "Can / May" },
+            { char: "以", jyutping: "ji5", meaning: "By / With" },
+            { char: "應", jyutping: "jing1", meaning: "Should" },
+            { char: "該", jyutping: "goi1", meaning: "Should / Ought to" },
+            { char: "必", jyutping: "bit1", meaning: "Must / Certainly" },
+            { char: "須", jyutping: "seoi1", meaning: "Must / Necessary" },
+            { char: "願", jyutping: "jyun6", meaning: "Wish / Willing" },
+            { char: "意", jyutping: "ji3", meaning: "Meaning / Idea" },
+            { char: "需", jyutping: "seoi1", meaning: "Need" },
             { char: "敢", jyutping: "gam2", meaning: "Dare to" },
             { char: "得", jyutping: "dak1", meaning: "Must / Have to" }
         ],
@@ -311,7 +318,7 @@ const vocabData = {
             { char: "億", jyutping: "jik1", meaning: "Hundred Million" }
         ],
         "Family": [
-            { char: "爺爺", jyutping: "je4 je4", meaning: "Grandpa (Paternal)" }, { char: "奶奶", jyutping: "naai5 naai5", meaning: "Grandma (Paternal)" },
+            { char: "爺", jyutping: "je4", meaning: "Grandpa (Paternal)" }, { char: "奶奶", jyutping: "naai5 naai5", meaning: "Grandma (Paternal)" },
             { char: "姥爺", jyutping: "lou5 je4", meaning: "Grandpa (Maternal - Northern)" }, { char: "姥姥", jyutping: "lou5 lou5", meaning: "Grandma (Maternal - Northern)" },
             { char: "外公", jyutping: "ngoi6 gung1", meaning: "Grandpa (Maternal)" }, { char: "外婆", jyutping: "ngoi6 po4", meaning: "Grandma (Maternal)" },
             { char: "爸爸", jyutping: "baa4 baa1", meaning: "Dad" }, { char: "媽媽", jyutping: "maa1 maa1", meaning: "Mom" },
