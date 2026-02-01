@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "57b34d2a-4363-4428-a2c7-024827170566",
+  "packageName": "com.vcechinese.strokeorder",
+  "developer": {
+    "name": "VCE Chinese Dept",
+    "websiteUrl": "https://www.example.com",
+    "privacyUrl": "https://www.example.com/privacy",
+    "termsOfUseUrl": "https://www.example.com/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Stroke Order Game",
+    "full": "VCE Traditional Chinese Stroke Order Game"
+  },
+  "description": {
+    "short": "Practice Traditional Chinese stroke order.",
+    "full": "Interactive game for Year 7-9 students to practice strictly Traditional Chinese character stroke order with Cantonese pronunciation, covering the full 440-word VCE vocabulary list."
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "gamePage",
+      "name": "Play Game",
+      "contentUrl": "https://YOUR-HOSTED-URL.com/index.html",
+      "websiteUrl": "https://YOUR-HOSTED-URL.com/index.html",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "YOUR-HOSTED-URL.com"
+  ]
+}

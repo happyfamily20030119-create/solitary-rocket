@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Stroke Order Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Hanzi Writer CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+</head>
+
+<body>
+    <div class="background-blob blob-1"></div>
+    <div class="background-blob blob-2"></div>
+
+    <header>
+        <h1>Chinese Stroke Master</h1>
+        <p class="subtitle">Learn Traditional Chinese Stroke Order with Cantonese Pronunciation</p>
+    </header>
+
+    <main>
+        <!-- Dashboard Select View -->
+        <div id="dashboard">
+            <!-- Content will be injected by script.js -->
+        </div>
+
+        <!-- Game Active View -->
+        <div id="game-area">
+            <div class="nav-bar">
+                <button class="back-btn" id="back-btn">← Back to Menu</button>
+                <div class="progress-info">
+                    <span id="current-year">Year 7</span> • <span id="current-topic">Family</span>
+                </div>
+            </div>
+
+            <div class="game-content">
+                <div class="character-display">
+                    <div id="character-target"></div>
+                </div>
+
+                <div class="info-panel">
+                    <div class="pinyin" id="char-jyutping">nei5 hou2</div>
+                    <div class="meaning" id="char-meaning">Hello</div>
+                    <div class="feedback-msg" id="feedback-msg"></div>
+                </div>
+
+                <div class="controls">
+                    <button class="btn btn-secondary" id="animate-btn">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Show Order
+                    </button>
+                    <button class="btn btn-secondary" id="sound-btn">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z">
+                            </path>
+                        </svg>
+                        Listen
+                    </button>
+                    <button class="btn btn-primary" id="next-btn">
+                        Next
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="vocab.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
